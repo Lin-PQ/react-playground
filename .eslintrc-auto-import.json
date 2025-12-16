@@ -16,6 +16,7 @@
     "forwardRef": true,
     "lazy": true,
     "memo": true,
+    "request": true,
     "startTransition": true,
     "use": true,
     "useActionState": true,

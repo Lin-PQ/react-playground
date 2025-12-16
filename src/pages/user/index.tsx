@@ -1,9 +1,19 @@
-import { Button } from "antd";
+import { Button } from 'antd';
+
+import { useUserStore } from '@/store/use-user-store';
+
 const User: React.FC = () => {
-  console.log("3");
+  const { bears, increase } = useUserStore();
   return (
-    <div className="bg-black">
-      44<Button>22</Button>
+    <div>
+      <Button
+        onClick={() => {
+          increase();
+        }}
+      >
+        +1
+      </Button>
+      {bears}
     </div>
   );
 };

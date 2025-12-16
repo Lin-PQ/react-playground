@@ -6,6 +6,8 @@ import App from './App';
 import './index.css';
 import './mock';
 
+import 'nprogress/nprogress.css';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* 关键：必须包裹 BrowserRouter */}
