@@ -11,7 +11,7 @@ import 'nprogress/nprogress.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* 关键：必须包裹 BrowserRouter */}
-    <BrowserRouter>
+    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
