@@ -51,7 +51,7 @@ pnpm build
 pnpm preview
 ```
 
-浏览器访问 `http://localhost:` 即可看到自动生成的练习目录。
+浏览器访问 `http://localhost:8080` 即可看到自动生成的练习目录。
 
 ## 📖 核心功能指南
 

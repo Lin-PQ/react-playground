@@ -1,5 +1,6 @@
 /// <reference types="vite/client" />
 /// <reference types="vite-plugin-pages/client-react" />
+/// <reference types="vite-plugin-svgr/client" />
 
 // 定义环境变量的类型
 interface ImportMetaEnv {

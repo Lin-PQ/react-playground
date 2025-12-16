@@ -3,11 +3,13 @@ import path from 'path';
 import AutoImport from 'unplugin-auto-import/vite';
 import { defineConfig } from 'vite';
 import Pages from 'vite-plugin-pages';
+import svgr from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
+    svgr(),
     // ✨ 魔法核心：自动识别 src/pages 下的文件生成路由
     Pages({
       dirs: 'src/pages',
