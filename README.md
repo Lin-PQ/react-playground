@@ -1,10 +1,12 @@
 # React 18 Playground 🧪
 
-[https://react.dev/](https://react.dev/)
-[https://vitejs.dev/](https://vitejs.dev/)
-[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-[https://ant.design/](https://ant.design/)
-[https://tailwindcss.com/](https://tailwindcss.com/)
+## 📖 技术栈文档
+
+- [https://react.dev/](https://react.dev/)
+- [https://vitejs.dev/](https://vitejs.dev/)
+- [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+- [https://ant.design/](https://ant.design/)
+- [https://tailwindcss.com/](https://tailwindcss.com/)
 
 一个基于 **Vite + React 18** 的现代化前端“练功房”脚手架。
 专为快速验证想法、练习 Hooks、测试组件库特性而设计。零配置路由，新建文件即页面，让你专注于代码本身。
@@ -41,6 +43,15 @@ pnpm dev
 ```
 
 浏览器访问 `http://localhost:3000` 即可看到自动生成的练习目录。
+
+### 3.预览
+
+```
+pnpm build
+pnpm preview
+```
+
+浏览器访问 `http://localhost:` 即可看到自动生成的练习目录。
 
 ## 📖 核心功能指南
 
