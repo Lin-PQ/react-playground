@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 如果你有其他的全局样式，可以写在这里下面 */
+body {
+  background-color: #f8fafc; /* 给背景一个淡淡的灰，不那么刺眼 */
+}
